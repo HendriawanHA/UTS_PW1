@@ -1,7 +1,3 @@
-if (window.location.pathname.includes ('login.html') && !localStorage.getItem('isLoggedIn')) {
-    window.location.href = 'login.html';
-}
-
 document.getElementById('registerForm')?.addEventListener('submit', registerUser);
 
 function registerUser(event) {
@@ -50,13 +46,6 @@ document.getElementById('togglePassword')?.addEventListener('click', function ()
     }
 });
 
-document.querySelector('.logout-link')?.addEventListener('click', function (event) {
-    event.preventDefault();
-    localStorage.removeItem('isLoggedIn'); 
-    localStorage.removeItem('username'); 
-    alert('Anda telah berhasil logout.');
-    window.location.href = 'login.html';
-});
 
 
 
