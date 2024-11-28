@@ -1,0 +1,249 @@
+body,
+html {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #f3e5d1;
+    color: #4e342e;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    background-image: url('img/cafe.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navbar & Home */
+.navbar {
+    background-color: #3e2723;
+}
+
+nav.navbar a.navbar-brand,
+nav.navbar a.nav-link {
+    color: #fff;
+}
+
+nav.navbar a.nav-link:hover {
+    color: #ffc107;
+}
+
+h1,
+.lead {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), -2px -2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.text-coffee {
+    color: #795548;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.product-img,
+.feature-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.btn-coffee {
+    background-color: #4e342e;
+    color: #f3e5d1;
+    
+}
+
+
+
+.testimonial-img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* About */
+.container-img {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-img {
+    width:30%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 5%; 
+    margin-bottom: 20px; 
+}
+
+/* Footer */
+.cp {
+    background-color: #3e2723;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto; 
+}
+
+/* Map Section */
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.map-frame {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+/* Produk Detail */
+.product-detail {
+    padding: 2rem 0;
+}
+
+.product-detail .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.product-detail .content img {
+    width: 20%;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.product-detail .content .description {
+    width: 40%;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.description-reverse {
+    width: 40%;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.product-detail .content .description h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.product-detail .content .description p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.product-detail .content.reverse {
+    flex-direction: row;
+}
+
+/* Detail Tim Kami */
+.team-detail {
+    padding: 2rem 0;
+}
+
+.team-detail .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.team-detail .content img {
+    width: 20%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-detail .content .description {
+    width: 40%;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.description-reverse {
+    width: 40%;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.team-detail .content .description h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.team-detail .content .description p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.team-detail .content.reverse {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .product-detail .content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .product-detail .content.reverse {
+        flex-direction: column;
+    }
+    .product-detail .content img,
+    .product-detail .content .description {
+        width: 100%;
+    }
+}

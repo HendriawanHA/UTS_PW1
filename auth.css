@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('img/cafe.avif');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+    opacity: 0.8;
+    -webkit-filter: blur(8px);
+}
+
+/* Navbar */
+.navbar {
+    background-color: #3e2723;
+}
+
+nav.navbar a.navbar-brand,
+nav.navbar a.nav-link {
+    color: #fff;
+}
+
+nav.navbar a.nav-link:hover {
+    color: #ffc107;
+}
+
+/* Container Form */
+.container-auth {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+/* Form Judul */
+h2.text-coffee {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Kolom Input */
+.form-control {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.6);
+}
+
+.form-label i {
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Tombol Submit */
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 15px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+.text-center a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.cp {
+    background-color: #3e2723;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .container-login {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    h2.text-coffee {
+        font-size: 20px;
+    }
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    border-right: none;
+}
+
+#togglePassword {
+    cursor: pointer;
+}

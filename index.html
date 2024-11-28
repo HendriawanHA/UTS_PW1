@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTB Coffee Shop</title>
+    <link href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Bagian Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">UTB Coffee Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#tim">Tim Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#produk">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimoni">Testimoni</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#keunggulan">Keunggulan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak Kami</a></li>
+                </ul>
+                <a class="nav-link mx-5 logout-link" href="#">
+                    <i class="bi bi-box-arrow-in-left"></i> Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bagian Hero -->
+    <header class="bg-dark text-coffee text-center py-5 position-relative">
+        <div class="container position-relative mt-5">
+            <h1>Selamat Datang di UTB Coffee Shop</h1>
+            <p class="lead pb-2">Tempat ngopi terbaik untuk mahasiswa, dibuat dengan rasa dan semangat untuk teman
+                belajar!
+            </p>
+        </div>
+    </header>
+    
+    <!-- Bagian Tim -->
+    <section id="tim" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-coffee mb-5">Tim Kami</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-3 text-center">
+                    <img src="img/fadillah.jpg" alt="FadillahW" class="rounded-circle mb-3">
+                    <h5>Fadillah Wiguna</h5>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/hendri.jpeg" alt="Hendriawan" class="rounded-circle mb-3">
+                    <h5>Hendriawan</h5>
+                    <a href="tim-detail.html" class="btn btn-coffee mt-5">Lihat Selengkapnya</a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/zaidan.jpg" alt="ZaidanF" class="rounded-circle mb-3">
+                    <h5>Zaidan Fakhrudin</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bagian Produk -->
+    <section id="produk" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center text-coffee">Produk Kami</h2>
+            <p class="text-center mb-4">Nikmati beragam minuman kopi yang cocok untuk menemani hari-hari kuliahmu.</p>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="img/espresso.avif" alt="Espresso" class="product-img mb-3">
+                    <h4 class="text-coffee">Espresso</h4>
+                    <p>Kopi yang kuat dan kaya rasa, cocok untuk memulai hari dengan penuh energi.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="img/latte.avif" alt="Latte" class="product-img mb-3">
+                    <h4 class="text-coffee">Latte</h4>
+                    <p>Kopi susu lembut dan creamy, cocok untuk pagi yang tenang.</p>
+                    <a href="produk-detail.html" class="btn btn-coffee mt-5">Lihat Selengkapnya</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="img/cappucino.avif" alt="Cappuccino" class="product-img mb-3">
+                    <h4 class="text-coffee">Cappuccino</h4>
+                    <p>Perpaduan espresso, susu hangat, dan busa susu, ideal untuk waktu istirahatmu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Bagian Testimoni -->
+    <section id="testimoni" class="py-5">
+        <div class="testimonial-img-container">
+            <h2 class="text-center text-coffee">Testimoni</h2>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="img/man2.avif" alt="Andi" class="testimonial-img rounded-circle mb-5">
+                    <p>"Rasa kopi di UTB Coffee Shop selalu bikin semangat belajar lagi. Wajib coba!" - Andi</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/woman.avif" alt="Putri" class="testimonial-img rounded-circle mb-5">
+                    <p>"Suasananya nyaman banget untuk diskusi bareng teman atau ngerjain tugas." - Putri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bagian Keunggulan-->
+    <section id="keunggulan" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center text-coffee mb-5">Keunggulan Kami</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="img/coffeebeans.avif" alt="Kualitas" class="feature-img mb-3">
+                    <h4 class="text-coffee">Biji Kopi Berkualitas</h4>
+                    <p>Hanya biji kopi terbaik yang kami pilih untuk rasa yang otentik.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="img/cafeint2.avif" alt="Nyaman" class="feature-img mb-3">
+                    <h4 class="text-coffee">Suasana Nyaman</h4>
+                    <p>Tersedia tempat duduk yang nyaman dan suasana tenang, ideal untuk belajar dan bekerja.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="img/cafecollege.avif" alt="Harga" class="feature-img mb-3">
+                    <h4 class="text-coffee">Harga Terjangkau</h4>
+                    <p>Dapatkan kualitas terbaik dengan harga yang ramah untuk mahasiswa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Kontak Kami Section -->
+    <section id="kontak" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-coffee">Kontak Kami</h2>
+            <p class="text-center mb-4">Kami siap melayani pertanyaan dan kebutuhan Anda. Hubungi kami melalui kontak
+                berikut!</p>
+                <div class="map-container mb-5">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.430646234228!2d107.59277827514424!3d-6.953718569965235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7bbd45f7857%3A0x866c8752127e6b8e!2sKb.%20Lega%2C%20Kec.%20Bojongloa%20Kidul%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040235!5e0!3m2!1sid!2sid!4v1698736294810!5m2!1sid!2sid"
+                    class="map-frame" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 text-center text-coffee">
+                    <i class="bi bi-geo-alt-fill fs-2 mb-3 text-coffee"></i>
+                    <h5>Alamat</h5>
+                    <p>Kb. Lega, Kec. Bojongloa Kidul, Kota Bandung, Jawa Barat 40235</p>
+                    
+                </div>
+                <div class="col-md-4 text-center text-coffee">
+                    <i class="bi bi-envelope-fill fs-2 mb-3 text-coffee"></i>
+                    <h5>Email</h5>
+                    <p>contact@utbcoffee.com</p>
+                </div>
+                <div class="col-md-4 text-center text-coffee">
+                    <i class="bi bi-telephone-fill fs-2 mb-3 text-coffee"></i>
+                    <h5>Telepon</h5>
+                    <p>+62 812 8552 1068</p>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="https://wa.me/6281285521068" class="btn btn-warning">Hubungi via WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Footer -->
+    <footer class="cp text-white text-center py-3">
+        <p>&copy; 22552011144_Hendriawan_TIFK22CID</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

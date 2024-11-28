@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTB Coffee Shop</title>
+    <link href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Bagian Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">UTB Coffee Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#tim">Tim Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#produk">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#testimoni">Testimoni</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#keunggulan">Keunggulan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#kontak">Kontak Kami</a></li>
+                </ul>
+                <a class="nav-link mx-5" href="login.html">
+                    <i class="bi bi-box-arrow-in-left"></i> Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Detail Espresso -->
+    <section id="espresso" class="product-detail mt-5">
+        <div class="content">
+            <img src="img/espresso.avif" alt="Espresso" class="product-img-detail">
+            <div class="description">
+                <h2>Espresso</h2>
+                <p>Kopi yang kuat dan kaya rasa, cocok untuk memulai hari dengan penuh energi.</p>
+                <h5>Manfaat</h5>
+                <ul>
+                    <li>Memberikan energi instan untuk aktivitas harian.</li>
+                    <li>Rasa pekat cocok untuk pecinta kopi murni tanpa tambahan.</li>
+                    <li>Dasar utama untuk berbagai minuman kopi (Latte, Cappuccino, dll).</li>
+                </ul>
+                <h6 class="text-end mt-5">Harga: Rp20.000</h6>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Detail Latte -->
+    <section id="latte" class="product-detail">
+        <div class="content reverse">
+            <div class="description-reverse">
+                <h2>Latte</h2>
+                <p>Kopi susu lembut dan creamy, cocok untuk pagi yang tenang.</p>
+                <h5>Manfaat</h5>
+                <ul>
+                    <li>Menambah energi di pagi hari.</li>
+                    <li>Memberikan rasa nyaman dan santai.</li>
+                    <li>Mengandung susu yang kaya kalsium.</li>
+                </ul>
+                <h6 class="text-end mt-5">Harga: Rp25.000</h6>
+            </div>
+            <img src="img/latte.avif" alt="Latte" class="product-img-detail">
+        </div>
+    </section>
+
+    <!-- Detail Cappuccino -->
+    <section id="cappuccino" class="product-detail">
+        <div class="content">
+            <img src="img/cappucino.avif" alt="Cappuccino" class="product-img-detail">
+            <div class="description">
+                <h2>Cappuccino</h2>
+                <p>Perpaduan espresso, susu hangat, dan busa susu, ideal untuk waktu istirahatmu.</p>
+                <h5>Manfaat</h5>
+                <ul>
+                    <li>Meningkatkan energi dengan rasa lembut.</li>
+                    <li>Cocok untuk dinikmati pagi atau sore hari.</li>
+                    <li>Memberikan pengalaman rasa yang seimbang antara kopi dan susu.</li>
+                </ul>
+                <h6 class="text-end mt-5">Harga: Rp22.000</h6>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detail Americano -->
+    <section id="americano" class="product-detail">
+        <div class="content reverse">
+            <div class="description-reverse">
+                <h2>Americano</h2>
+                <p>Kesederhanaan rasa kopi murni yang menyegarkan, memberi energi untuk setiap langkah harimu.</p>
+                <h5>Manfaat</h5>
+                <ul>
+                    <li>Menambah energi di pagi hari.</li>
+                    <li>Kaya Antioksidan.</li>
+                    <li>Meningkatkan Konsentrasi.</li>
+                </ul>
+                <h6 class="text-end mt-5">Harga: Rp20.000</h6>
+            </div>
+            <img src="img/americano.jpeg" alt="americano" class="product-img-detail">
+        </div>
+    </section>
+
+    <!-- Detail Moccachino -->
+    <section id="moccachino" class="product-detail">
+        <div class="content">
+            <img src="img/moccachino.jpeg" alt="Moccachino" class="product-img-detail">
+            <div class="description">
+                <h2>Moccachino</h2>
+                <p>Perpaduan sempurna kopi dan cokelat untuk kebahagiaan setiap tegukan.</p>
+                <h5>Manfaat</h5>
+                <ul>
+                    <li>Mood Booster.</li>
+                    <li>Pilihan Nikmat.</li>
+                    <li>Cocok untuk Berbagai Suasana.</li>
+                </ul>
+                <h6 class="text-end mt-5">Harga: Rp26.000</h6>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Footer -->
+    <footer class="cp text-white text-center py-3">
+        <p>&copy; 22552011144_Hendriawan_TIFK22CID</p>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
